@@ -1,7 +1,10 @@
 # Classification & Localization of Objects in Images
-(project.ml.imloc.repo)
+(project.ml.imloc)
 
-repository of project 'project.ml.imloc'
+## Overview
+
+### Localization
+#todo
 
 ## Dataset
 Tiny ImageNet: https://tiny-imagenet.herokuapp.com/
