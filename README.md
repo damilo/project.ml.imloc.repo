@@ -7,4 +7,5 @@ repository of project 'project.ml.imloc'
 Tiny ImageNet: https://tiny-imagenet.herokuapp.com/
 
 ## Benchmark
-random guess as benchmark for both classification and localization
+Classification: random guess
+Localization: -
