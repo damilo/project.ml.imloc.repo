@@ -1,0 +1,1 @@
+docker container run --detach --publish 9999:9999 --volume C:/dockerShare:/home/mluser/share --name mlimloc mlimloc

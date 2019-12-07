@@ -6,6 +6,9 @@ RUN pip install -r /tmp/pyml.requirements.txt
 COPY pycv.requirements.txt /tmp/
 RUN pip install -r /tmp/pycv.requirements.txt
 
+COPY imloc.req.txt /tmp/
+RUN pip install -r /tmp/imloc.req.txt
+
 RUN useradd --create-home mluser
 WORKDIR /home/mluser
 
