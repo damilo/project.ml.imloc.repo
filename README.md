@@ -12,4 +12,4 @@ Tiny ImageNet: https://tiny-imagenet.herokuapp.com/
 ## Benchmark
 Classification: random guess
 Localization: -
- 
+  
