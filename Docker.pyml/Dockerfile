@@ -1,10 +1,4 @@
-FROM python:3.7.4-slim-buster
-
-COPY pyml.requirements.txt /tmp/
-RUN pip install -r /tmp/pyml.requirements.txt
-
-COPY pycv.requirements.txt /tmp/
-RUN pip install -r /tmp/pycv.requirements.txt
+FROM tensorflow/tensorflow:1.15.0-py3-jupyter
 
 COPY imloc.req.txt /tmp/
 RUN pip install -r /tmp/imloc.req.txt
