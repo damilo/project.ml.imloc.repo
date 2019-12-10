@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.15.0-py3-jupyter
+FROM tensorflow/tensorflow:1.15.0-py3
 
 COPY imloc.req.txt /tmp/
 RUN pip install -r /tmp/imloc.req.txt
